@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Wordle</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <script src="./wordle.js"></script>
+
+  <div class="entirepage" id="entirepage">
+    <nav class="top">
+      <h3> Wordle</h3>
+      <ul class="navicon">
+        <li id="hintcon">&#63;</li>
+        <li id="darkmode">&#9681;</li>
+        <li id="info">&#9432;</li>
+      </ul>
+
+
+    </nav>
+
+    <div class="middle">
+      <div class="right">
+        <div id="board-container">
+          <img class="hidden" id="win"
+            src="https://res.cloudinary.com/mkf/image/upload/v1675467141/ENSF-381/labs/congrats_fkscna.gif" alt="">
+          <div id="board">
+          </div>
+        </div>
+        <div class="button">
+          <button id="reset" type="button">Start Over</button>
+        </div>
+
+
+      </div>
+      <div id="infop" class="info hidden">
+        <h3>How to Play</h3>
+        <ul>
+          <li>Start typing. The letters will appear in the boxes</li>
+          <li>Remove letters with Backspace</li>
+          <li>Hit Enter/Return to submit an answer</li>
+          <li>Letters with green background are in the right spot</li>
+          <li>Letters with yellow background exist in the word but are in the wrong spots</li>
+          <li>Letters with gray background do not exist in the word </li>
+          <li>If you need a hint, click the &#63; button</li>
+        </ul>
+
+      </div>
+
+    </div>
+
+
+    <div id="hint" class="hidden">
+      <p id="hintp"></p>
+    </div>
+
+
+
+
+    <div class="bottom">
+      <p>&#169; LH</p>
+
+    </div>
+  </div>
+</body>
+
+</html>

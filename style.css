@@ -1,0 +1,161 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+
+
+}
+
+.entirepage {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+nav {
+  flex:1;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 0.1em solid silver;
+  border-top: 0.2em solid green;
+
+
+
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  justify-content: center;
+}
+
+
+
+nav h3 {
+  flex: 8;
+  font-size: 2em;
+  align-self: center;
+  text-align: center;
+  padding-left: 150px;
+}
+
+
+nav li {
+  display: flex;
+  float: left;
+  padding: 1em;
+  height: 100%;
+  margin: 0px;
+  width: 100%;
+  align-items: center;
+  padding-right:0px ;
+  padding-left: 0px;
+  padding-top: 0px;
+
+}
+
+nav li button {
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  border: none;
+  background-color: white;
+}
+
+.middle {
+  flex:5;
+  display: flex;
+  justify-content: center;
+
+}
+
+.button {
+  flex:2;
+  justify-content: center;
+  display: flex;
+ 
+}
+
+#reset {
+  height: 2.5em;
+  width: 200px;
+  font-size: 20px;
+  background-color: rgb(62, 185, 62);
+  color: white;
+}
+
+
+.tile {
+  border: 1px double silver;
+  min-width: 75px;
+  min-height: 75px;
+  font-size: 50px;
+  margin: 1px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.row {
+  display: flex;
+}
+
+.bottom {
+  flex:1;
+  border-top: 0.1em solid silver;
+  text-align: center;
+
+}
+
+.hidden {
+  visibility: hidden;
+  position: absolute;
+}
+
+#board-container{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hint {
+  width: 100%;
+  flex:0.5;
+  text-align: center;
+  background-color: rgb(240, 240, 207);
+  color: black;
+  ;
+}
+
+
+.darkmode {
+  background-color: black;
+  color:white;
+}
+
+
+
+.info {
+  flex:1;
+  border-left:0.1em solid silver ;
+  padding: 20px;
+}
+
+.info ul {
+  list-style-type: circle;
+}
+
+.right {
+  flex:1;
+  padding-top: 40px;
+}
