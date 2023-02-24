@@ -19,6 +19,8 @@ The game operates similarly to wordle by allowing a submission of four letters p
 
 
 
+Credits
 
+This project was created as a final project for "ENSF 381 Full Stack Software Development" under the Department of Electrical and Software Engineering at the University of Calgary. The project was created by: Lionel Hasan.
 
 
